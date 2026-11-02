@@ -47,7 +47,7 @@ def main():
 
     while True:
         length = get_length()
-        print(f"\nYour password: {generate_password(length)}\n")
+        print(f"\nYour password: {generate_password (length)}\n")
 
         again = input("Generate another? (y/n): ").strip().lower()
         if again != "y":
